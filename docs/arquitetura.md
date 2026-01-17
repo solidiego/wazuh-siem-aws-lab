@@ -12,9 +12,9 @@ O laboratório foi implantado na AWS utilizando uma VPC dedicada para garantir i
 ## Diagrama lógico
 
 Internet
-   |
+      |
 [Security Group]
-   |
+      |
 [Servidor Wazuh]
       |
       |-- Comunicação interna (VPC)
