@@ -24,6 +24,14 @@
 - Cliente SSH: OpenSSH Client (Windows Optional Feature)
 - Acesso realizado via PowerShell
 
+## Atualização do Sistema
+
+Antes da instalação do Wazuh, o sistema foi atualizado para garantir
+correções de segurança e compatibilidade.
+
+```bash
+sudo apt update && sudo apt upgrade -y
+
 ## Instalação do Wazuh
 O Wazuh foi instalado utilizando o script oficial em modo all-in-one, incluindo:
 - Wazuh Manager
