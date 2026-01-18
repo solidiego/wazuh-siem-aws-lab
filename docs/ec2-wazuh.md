@@ -14,6 +14,16 @@
 ## Armazenamento
 - Volume root: 30 GB (gp3)
 
+## Acesso à Instância
+- Sistema local: Windows
+- Acesso realizado via PowerShell (SSH nativo)
+- Autenticação por chave (.pem)
+
+## Ambiente Local
+- Sistema operacional: Windows
+- Cliente SSH: OpenSSH Client (Windows Optional Feature)
+- Acesso realizado via PowerShell
+
 ## Instalação do Wazuh
 O Wazuh foi instalado utilizando o script oficial em modo all-in-one, incluindo:
 - Wazuh Manager
