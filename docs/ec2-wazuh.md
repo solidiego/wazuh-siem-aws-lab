@@ -32,6 +32,22 @@ correções de segurança e compatibilidade.
 "```bash
 sudo apt update && sudo apt upgrade -y"
 
+## Problemas Encontrados
+
+Durante a instalação do Wazuh em instância Free Tier,
+o processo falhou devido à limitação de memória.
+
+### Solução aplicada
+Foi criado um arquivo de swap de 2 GB para permitir
+a conclusão da instalação.
+
+```bash
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+
+
 
 ## Instalação do Wazuh
 O Wazuh foi instalado utilizando o script oficial em modo all-in-one, incluindo:
