@@ -57,3 +57,23 @@ O Wazuh foi instalado utilizando o script oficial em modo all-in-one, incluindo:
 ## Observações
 - Instância dimensionada apenas para laboratório
 - Dashboard acessível somente via IP administrativo
+
+## Instalação Concluída
+
+A instalação do Wazuh foi concluída com sucesso no modo all-in-one,
+contendo Manager, Indexer e Dashboard.
+
+### Componentes
+- wazuh-manager
+- wazuh-indexer
+- wazuh-dashboard
+
+### Acesso ao Dashboard
+- Porta: 443
+- Protocolo: HTTPS
+- Autenticação: usuário admin
+
+### Observações
+- Ambiente Free Tier
+- Uso de swap para contornar limitação de memória
+
