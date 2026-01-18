@@ -77,3 +77,15 @@ contendo Manager, Indexer e Dashboard.
 - Ambiente Free Tier
 - Uso de swap para contornar limitação de memória
 
+## Validação da Infraestrutura
+
+Após a instalação, os serviços principais foram validados utilizando systemctl.
+
+### Serviços
+- wazuh-manager: ativo
+- wazuh-indexer: ativo
+- wazuh-dashboard: ativo
+
+Todos os componentes encontram-se em execução normal.
+
+
