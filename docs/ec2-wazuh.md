@@ -46,9 +46,7 @@ a conclusão da instalação.
 sudo fallocate -l 2G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
-sudo swapon /swapfile
-
-"
+sudo swapon /swapfile"
 
 ## Instalação do Wazuh
 O Wazuh foi instalado utilizando o script oficial em modo all-in-one, incluindo:
